@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# SUMO generated files
+*.net.xml
+*.trips.xml
+*.rou.xml
+*.sumocfg
+*.poly.xml
+*.edg.xml
+*.nod.xml
+*.con.xml
+*.type.xml
+*.add.xml
+*.output.xml
+*.dump.xml
+*.raw.xml
+
+# Simulation outputs
+/output/
+*.csv
+*.json
+*.xml
+*.txt
+
+# IDE/editor configs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*~
